@@ -14,10 +14,10 @@ and any auxiliary data (such as the host's public IP). Packets are forwarded usi
 
 1. Let's, find out the problem and try to solve. Using init commant initialize your on master node.
 
-        kubeadm init --ignore-preflight-errors=all
+       kubeadm init --ignore-preflight-errors=all
 or
 
-        kubeadm init --pod-network-cidr=30.320.0.0/16  --ignore-preflight-errors=NumCPU  --ignore-preflight-errors=Mem
+       kubeadm init --pod-network-cidr=30.320.0.0/16  --ignore-preflight-errors=NumCPU  --ignore-preflight-errors=Mem
 
 2. When we to start using cluster , we should run several instruction on master machine.
 
